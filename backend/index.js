@@ -27,7 +27,7 @@ app.use((req,res, next)=>{
 app.use(cors())
 
 // connecting to db
-const dbURI = 'mongodb+srv://veda:CVVIujYG4dX9UXo5@cluster0.qyxkleo.mongodb.net/?retryWrites=true&w=majority';
+const dbURI = 'ew'
 const options = {
     autoIndex: false, // Don't build indexes
     maxPoolSize: 10, // Maintain up to 10 socket connections
